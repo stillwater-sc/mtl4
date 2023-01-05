@@ -1,6 +1,6 @@
+cmake_minimum_required(VERSION 3.22)
 project (mtl4) # GPU version 
 
-cmake_minimum_required(VERSION 2.8)
 option(ENABLE_GCOV "enable gnu coverage flags for gnu compiler" OFF)
 option(ENABLE_WARNINGS "Enable gnu specific warnings" ON)
 option(ENABLE_TESTS "Enable the build and run of tests" ON)
